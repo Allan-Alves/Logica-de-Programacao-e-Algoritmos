@@ -2,14 +2,14 @@ Algoritmo "127"
 // Data atual: 07/06/2025
 
 // Durante uma temporada, uma academia decidiu organizar um programa de incentivo
-// aos seus clientes, aonde ela iria pagar R$0.5 centavos por pontos atingidos
+// aos seus clientes, aonde ela iria pagar R$0.05 centavos por pontos atingidos
 // durante o treino de seus clientes e agora ela precisa da sua ajuda para pagar
 // os seus clientes baseado na pontuação que eles conseguiram atingir. Crie um
 // programa que receba a quantidade de horas de atividade física realizada no
 // mês, e com base nessas horas, calcule a pontuação que a pessoa fez e quanto
 // ela irá receber pela pontuação atingida. Considerações:
 
-// Os clientes recebem R$0.5 centavos por pontos atingidos
+// Os clientes recebem R$0.05 centavos por pontos atingidos
 
 // Abaixo de 10 horas de atividade física por mês = 2 pontos
 // De 10 a 20 horas de atividade física por mês   = 5 pontos
