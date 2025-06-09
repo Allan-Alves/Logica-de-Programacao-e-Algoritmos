@@ -21,10 +21,10 @@ Var
    // Seção de Declarações das variáveis
    Carro, Dias: Inteiro
    KM, Valor_Total: Real
-   
+
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   
+
    Escreval ("--------------------------------------------------")
    Escreval ("           SERVIÇO DE ALUGUEL DE VEÍCULOS         ")
    Escreval ("--------------------------------------------------")
@@ -40,7 +40,7 @@ Inicio
    Escreva ("Distância Percorrida (Km): ")
    Leia (KM)
    Escreval ()
-   
+
    // Carros Populares
    // Calcular o valor por dias alugado   = Quantidade de dias * 90
    // Calcular o valor por Km percorridos =
@@ -54,29 +54,29 @@ Inicio
    // Km percorridos * (taxa de acordo com a kilometragem feita)
    // Calcular o valor total a pagar      =
    // Valor por dias alugado + Valor por kilometros percorridos
-   
+
    Escolha (Carro)
-      Caso 0
-           Se (KM <= 100) entao
-              Valor_Total <- (Dias * 90) + (KM * 0.20)
-              Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
-           Senao
-              Se (Km > 100) entao
-                 Valor_Total <- (Dias * 90) + (KM * 0.10)
-                 Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
-              FimSe
-           FimSe
-      Caso 1
-           Se (KM <= 200) entao
-              Valor_Total <- (Dias * 150) + (KM * 0.30)
-              Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
-           Senao
-              Se (KM > 200) entao
-                 Valor_Total <- (Dias * 150) + (KM * 0.25)
-                 Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
-              FimSe
-           FimSe
-      OutroCaso
-           Escreval ("Opção inválida! Por favor, escolha [0] ou [1]")
+   Caso 0
+      Se (KM <= 100) entao
+         Valor_Total <- (Dias * 90) + (KM * 0.20)
+         Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
+      Senao
+         Se (Km > 100) entao
+            Valor_Total <- (Dias * 90) + (KM * 0.10)
+            Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
+         FimSe
+      FimSe
+   Caso 1
+      Se (KM <= 200) entao
+         Valor_Total <- (Dias * 150) + (KM * 0.30)
+         Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
+      Senao
+         Se (KM > 200) entao
+            Valor_Total <- (Dias * 150) + (KM * 0.25)
+            Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
+         FimSe
+      FimSe
+   OutroCaso
+      Escreval ("Opção inválida! Por favor, escolha [0] ou [1]")
    FimEscolha
 Fimalgoritmo
