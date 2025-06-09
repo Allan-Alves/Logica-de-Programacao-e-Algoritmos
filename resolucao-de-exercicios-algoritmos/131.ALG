@@ -59,24 +59,21 @@ Inicio
    Caso 0
       Se (KM <= 100) entao
          Valor_Total <- (Dias * 90) + (KM * 0.20)
-         Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
       Senao
          Se (Km > 100) entao
             Valor_Total <- (Dias * 90) + (KM * 0.10)
-            Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
          FimSe
       FimSe
    Caso 1
       Se (KM <= 200) entao
          Valor_Total <- (Dias * 150) + (KM * 0.30)
-         Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
       Senao
          Se (KM > 200) entao
             Valor_Total <- (Dias * 150) + (KM * 0.25)
-            Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
          FimSe
       FimSe
    OutroCaso
       Escreval ("Opção inválida! Por favor, escolha [0] ou [1]")
    FimEscolha
+   Escreval ("Valor Total a Pagar: R$", Valor_Total:6:2)
 Fimalgoritmo

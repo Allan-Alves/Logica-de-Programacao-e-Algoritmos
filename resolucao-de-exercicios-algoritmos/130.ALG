@@ -56,19 +56,15 @@ Inicio
 
    Se (Carro = 0) e (Km <= 100) entao
       Preco_Total <- (Dias * 90) + (KM * 0.20)
-      Escreval ("Valor Total a Pagar: R$", Preco_Total:6:2)
    Senao
       Se (Carro = 0) e (KM > 100) entao
          Preco_Total <- (Dias * 90) + (KM * 0.10)
-         Escreval ("Valor Total a Pagar: R$", Preco_Total:6:2)
       Senao
          Se (Carro = 1) e (KM <= 200) entao
             Preco_Total <- (Dias * 150) + (KM * 0.30)
-            Escreval ("Valor Total a Pagar: R$", Preco_Total:6:2)
          Senao
             Se (Carro = 1) e (KM > 200) entao
                Preco_Total <- (Dias * 150) + (KM * 0.25)
-               Escreval ("Valor Total a Pagar: R$", Preco_Total:6:2)
             Senao
                Se (Carro <> 0) e (Carro <> 1) entao
                   Escreval ("Opção inválida! Por favor, escolha [0] ou [1]")
@@ -77,4 +73,5 @@ Inicio
          FimSe
       FimSe
    FimSe
+   Escreval ("Valor Total a Pagar: R$", Preco_Total:6:2)
 Fimalgoritmo
