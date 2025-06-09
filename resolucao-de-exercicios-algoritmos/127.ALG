@@ -33,19 +33,19 @@ Inicio
 
    Se (Horas < 10) entao
       Pontos <- Horas * 2
-      Ganho  <- Pontos * 0.5
+      Ganho  <- Pontos * 0.05
       Escreval ("Pontos: ", Pontos)
       Escreval ("Ganho: R$", Ganho:4:2)
    Senao
       Se (Horas >= 10) e (Horas <= 20) entao
          Pontos <- Horas * 5
-         Ganho <- Pontos * 0.5
+         Ganho <- Pontos * 0.05
          Escreval ("Pontos: ", Pontos)
          Escreval ("Ganho: R$", Ganho:4:2)
       Senao
          Se (Horas > 20) entao
             Pontos <- Horas * 10
-            Ganho  <- Pontos * 0.5
+            Ganho  <- Pontos * 0.05
             Escreval ("Pontos: ", Pontos)
             Escreval ("Ganho: R$", Ganho:4:2)
          FimSe
