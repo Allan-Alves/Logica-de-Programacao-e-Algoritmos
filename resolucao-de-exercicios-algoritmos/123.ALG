@@ -11,7 +11,7 @@ Var
    // Seção de Declarações das variáveis
    A, B, Resultado: Real
    Operador: Caractere
-   
+
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
 
@@ -22,7 +22,7 @@ Inicio
    Escreval ("Digite dois valores: ")
    Leia (A, B)
    Escreval ()
-   
+
    Escreval (" [1] Soma ")
    Escreval (" [2] Subtração ")
    Escreval (" [3] Multiplicação ")
@@ -30,30 +30,30 @@ Inicio
    Escreval (" [5] Potenciação ")
    Escreval (" [6] Encerrar Programa ")
    Escreval ()
-   
+
    Escreva ("Escolha um operador [1] a [6]: ")
    Leia (Operador)
    Escreval ()
-   
+
    Escolha (Operador)
-     Caso "1"
-          Escreval (A, " + ", B, " = ", A + B)
-     Caso "2"
-          Escreval (A, " - ", B, " = ", Abs(A - B))
-     Caso "3"
-          Escreval (A, " * ", B, " = ", A * B)
-     Caso "4"
-          Se (B = 0) entao
-             Resultado <- B / A
-          Senao
-             Resultado <- A / B
-          FimSe
-          Escreval (A, " / ", B, " = ", Resultado)
-     Caso "5"
-          Escreval (A, " elevado a ", B, " = ", A ^ B)
-     Caso "6"
-          Escreval ("Encerrando Programa...")
-     OutroCaso
-          Escreval ("Operação Inválida! Por favor, selecione um operador válido.")
+   Caso "1"
+      Escreval (A, " + ", B, " = ", A + B)
+   Caso "2"
+      Escreval (A, " - ", B, " = ", Abs(A - B))
+   Caso "3"
+      Escreval (A, " * ", B, " = ", A * B)
+   Caso "4"
+      Se (B = 0) entao
+         Resultado <- B / A
+      Senao
+         Resultado <- A / B
+      FimSe
+      Escreval (A, " / ", B, " = ", Resultado)
+   Caso "5"
+      Escreval (A, " elevado a ", B, " = ", A ^ B)
+   Caso "6"
+      Escreval ("Encerrando Programa...")
+   OutroCaso
+      Escreval ("Operação Inválida! Por favor, selecione um operador válido.")
    FimEscolha
 Fimalgoritmo

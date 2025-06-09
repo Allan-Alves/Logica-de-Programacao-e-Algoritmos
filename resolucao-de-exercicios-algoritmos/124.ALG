@@ -26,7 +26,7 @@ Inicio
    Escreva ("Digite uma temperatura: ")
    Leia (Temperatura)
    Escreval ()
-   
+
    Escreval (" [1] - Celsius   -> Kelvin")
    Escreval (" [2] - Celsius   -> Farenheit")
    Escreval (" [3] - Kelvin    -> Celsius")
@@ -34,25 +34,25 @@ Inicio
    Escreval (" [5] - Farenheit -> Celsius")
    Escreval (" [6] - Farenheit -> Kelvin")
    Escreval ()
-   
+
    Escreva ("Escolha uma opção [1] a [6]: ")
    Leia (Opcao)
    Escreval ()
-   
+
    Escolha (Opcao)
-      Caso 1
-           Escreval (Temperatura, " C = ", (Temperatura + 273), " K ")
-      Caso 2
-           Escreval (Temperatura, " C = ", (Temperatura * 1.8) + 32, " F ")
-      Caso 3
-           Escreval (Temperatura, " K = ", (Temperatura - 273), " C ")
-      Caso 4
-           Escreval (Temperatura, " K = ", 9 / 5 * (Temperatura - 273) + 32, " F ")
-      Caso 5
-           Escreval (Temperatura, " F = ", 5 / 9 * (Temperatura - 32), " C ")
-      Caso 6
-           Escreval (Temperatura, " F = ", 5 / 9 * (Temperatura - 32) + 273, " K ")
-      OutroCaso
-           Escreval ("Opção inválida! Por favor, selecione uma opção entre 1 e 6.")
+   Caso 1
+      Escreval (Temperatura, " C = ", (Temperatura + 273), " K ")
+   Caso 2
+      Escreval (Temperatura, " C = ", (Temperatura * 1.8) + 32, " F ")
+   Caso 3
+      Escreval (Temperatura, " K = ", (Temperatura - 273), " C ")
+   Caso 4
+      Escreval (Temperatura, " K = ", 9 / 5 * (Temperatura - 273) + 32, " F ")
+   Caso 5
+      Escreval (Temperatura, " F = ", 5 / 9 * (Temperatura - 32), " C ")
+   Caso 6
+      Escreval (Temperatura, " F = ", 5 / 9 * (Temperatura - 32) + 273, " K ")
+   OutroCaso
+      Escreval ("Opção inválida! Por favor, selecione uma opção entre 1 e 6.")
    FimEscolha
 Fimalgoritmo

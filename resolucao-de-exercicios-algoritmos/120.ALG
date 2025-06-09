@@ -8,10 +8,10 @@ Var
    Codigo, Descricao: Caractere
    Opcao, Qtde: Inteiro
    Valor, Valor_Total: Real
-   
+
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   
+
    Escreval ("************************************************")
    Escreval ("*               SORVETERIA KIBOM               *")
    Escreval ("************************************************")
@@ -25,26 +25,26 @@ Inicio
 
    Escreva ("Escolha uma opção: ")
    Leia (Opcao)
-   
+
    Escolha (Opcao)
-      Caso 1
-           Escreva ("Informe a quantidade (unidades): ")
-           Leia (Qtde)
-           Escreva ("Preço do produto: R$")
-           Leia (Valor)
-           Valor_Total <- Qtde * Valor
-           Escreval ("Valor Total: R$", Valor_Total:4:2)
-      Caso 2
-           Escreva ("Informe o código do produto: ")
-           Leia (Codigo)
-           Escreva ("Descrição do Produto: ")
-           Leia (Descricao)
-           Escreva ("Preço do produto: R$")
-           Leia (Valor)
-      Caso 3
-           Escreval ("Encerrando Programa...")
-           LimpaTela
-      OutroCaso
-           Escreval ("Opção Inválida! Por favor, escolha uma opção entre [1] e [3]")
+   Caso 1
+      Escreva ("Informe a quantidade (unidades): ")
+      Leia (Qtde)
+      Escreva ("Preço do produto: R$")
+      Leia (Valor)
+      Valor_Total <- Qtde * Valor
+      Escreval ("Valor Total: R$", Valor_Total:4:2)
+   Caso 2
+      Escreva ("Informe o código do produto: ")
+      Leia (Codigo)
+      Escreva ("Descrição do Produto: ")
+      Leia (Descricao)
+      Escreva ("Preço do produto: R$")
+      Leia (Valor)
+   Caso 3
+      Escreval ("Encerrando Programa...")
+      LimpaTela
+   OutroCaso
+      Escreval ("Opção Inválida! Por favor, escolha uma opção entre [1] e [3]")
    FimEscolha
 Fimalgoritmo

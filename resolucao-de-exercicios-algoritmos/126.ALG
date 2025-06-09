@@ -26,15 +26,15 @@ Inicio
    // Mulheres = 15% de desconto
 
    Escolha (Sexo)
-      Caso "M"
-            Desconto_H    <- (Preco * 5) / 100
-            Valor_Final_H <- Preco - Desconto_H
-            Escreval ("Valor Final Para Homens: R$", Valor_Final_H:6:2)
-      Caso "F"
-            Desconto_M    <- (Preco * 15) / 100
-            Valor_Final_M <- Preco - Desconto_M
-            Escreval ("Valor Final Para Mulheres: R$", Valor_Final_M:6:2)
-      OutroCaso
-            Escreval ("Informe um sexo válido!")
+   Caso "M"
+      Desconto_H    <- (Preco * 5) / 100
+      Valor_Final_H <- Preco - Desconto_H
+      Escreval ("Valor Final Para Homens: R$", Valor_Final_H:6:2)
+   Caso "F"
+      Desconto_M    <- (Preco * 15) / 100
+      Valor_Final_M <- Preco - Desconto_M
+      Escreval ("Valor Final Para Mulheres: R$", Valor_Final_M:6:2)
+   OutroCaso
+      Escreval ("Informe um sexo válido!")
    FimEscolha
 Fimalgoritmo

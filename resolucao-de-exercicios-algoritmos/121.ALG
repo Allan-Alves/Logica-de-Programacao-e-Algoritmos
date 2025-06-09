@@ -17,7 +17,7 @@ Algoritmo "121"
 Var
    // Seção de Declarações das variáveis
    Peso, Altura, IMC: Real
-   
+
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreva ("Peso (Kg): ")
@@ -28,23 +28,23 @@ Inicio
 
    IMC <- Peso / (Altura * Altura)
    Escreval ("IMC: ", IMC:4:2)
-   
+
    Escolha (IMC)
-     Caso 17
-          Escreval ("Muito Abaixo do Peso")
-     Caso 18, 19
-          Escreval ("Abaixo do Peso")
-     Caso 20, 21, 22, 23, 24
-          Escreval ("Peso Ideal")
-     Caso 25, 26, 27, 28, 29
-          Escreval ("Sobrepeso")
-     Caso 30, 31, 32, 33, 34
-          Escreval ("Obesidade I")
-     Caso 35, 36, 37, 38, 39
-          Escreval ("Obesidade II (Severa)")
-     Caso 40
-          Escreval ("Obesidade III (Mórbida)")
-     OutroCaso
-          Escreval ("Recomenda-se que procure um médico")
-  FimEscolha
+   Caso 17
+      Escreval ("Muito Abaixo do Peso")
+   Caso 18, 19
+      Escreval ("Abaixo do Peso")
+   Caso 20, 21, 22, 23, 24
+      Escreval ("Peso Ideal")
+   Caso 25, 26, 27, 28, 29
+      Escreval ("Sobrepeso")
+   Caso 30, 31, 32, 33, 34
+      Escreval ("Obesidade I")
+   Caso 35, 36, 37, 38, 39
+      Escreval ("Obesidade II (Severa)")
+   Caso 40
+      Escreval ("Obesidade III (Mórbida)")
+   OutroCaso
+      Escreval ("Recomenda-se que procure um médico")
+   FimEscolha
 Fimalgoritmo
