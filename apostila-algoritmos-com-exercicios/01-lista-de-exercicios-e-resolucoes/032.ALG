@@ -10,17 +10,18 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval ("---------------------------------------------------------")
-   Escreval ("                    JOGO DA ADVINHAÇÃO                   ")
-   Escreval ("---------------------------------------------------------")
+   Escreval ("---------------------------------------------------------------")
+   Escreval ("                       JOGO DA ADVINHAÇÃO                      ")
+   Escreval ("---------------------------------------------------------------")
    Escreval ()
 
-   Escreva ("Valor de 1 a 5 informado pelo computador: ")
+   Escreva ("Tente advinhar o valor que o computador irá sortear (1 a 5): ")
+   Leia (Jogador)
+   
+   Escreva ("Valor sorteado pelo computador (1 a 5): ")
    Aleatorio 1,5
    Leia (PC)
    Aleatorio Off
-   Escreva ("Informe um valor de 1 a 5: ")
-   Leia (Jogador)
    Escreval ()
 
    Se (Jogador = PC) entao
