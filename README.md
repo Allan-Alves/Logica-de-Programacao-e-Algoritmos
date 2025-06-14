@@ -16,8 +16,8 @@ O curso abrange os seguintes tópicos:
 * Funções Aritméticas
 * Operadores Relacionais
 * Operadores Lógicos
-* Estrutura Condicional (Simples, Composta, Aninhada e Múltipla)
-* Estrutura de Repetição
+* Estruturas Condicionais (Simples, Composta, Aninhada e Múltipla)
+* Estruturas de Repetição
 * Procedimentos
 * Funções
 * Vetores
