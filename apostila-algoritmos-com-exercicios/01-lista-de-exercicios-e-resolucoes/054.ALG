@@ -37,7 +37,6 @@ Inicio
          FimSe
       FimSe
 
-
       Soma_A <- Soma_A + Altura
       Cont <- Cont + 1
    FimEnquanto
