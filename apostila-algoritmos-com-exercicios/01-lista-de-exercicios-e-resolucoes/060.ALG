@@ -41,7 +41,7 @@ Inicio
       FimSe
 
       Se (Sexo = "M") ou (Sexo = "Masculino") entao
-         Se(Idade > 30) entao
+         Se (Idade > 30) entao
             Homens_Mais_30 <- Homens_Mais_30 + 1
          FimSe
       Senao
