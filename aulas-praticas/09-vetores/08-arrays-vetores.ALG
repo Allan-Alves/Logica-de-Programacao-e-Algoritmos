@@ -1,7 +1,7 @@
 Algoritmo "Arrays - Vetores - Torneio de Futebol"
 // Data atual: 07/07/2025
 
-// Crie um programa usando vetores que simule um tabela de partidas entre 3
+// Crie um programa usando vetores que simule uma tabela de partidas entre 3
 // Times de forma que todos os times se enfrentem. Por exemplo:
 
 // Times: Vasco, Flamengo, Fluminense.
