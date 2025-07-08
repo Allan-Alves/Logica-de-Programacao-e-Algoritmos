@@ -40,7 +40,7 @@ Inicio
          Escreval ("Erro! Assento Já Ocupado!")
       FimSe
 
-      Escreva ("Reservar Outo Assento? (S/N): ")
+      Escreva ("Reservar Outro Assento? (S/N): ")
       Leia (Resp)
    Ate (Resp = "N")
 Fimalgoritmo
